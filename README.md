@@ -1,4 +1,4 @@
-# bitcore-build
+# altcore-build
 
 A helper to add tasks to gulp.
 
@@ -7,16 +7,16 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-npm install bitcore-build
+npm install altcore-build
 ```
 
-and use and require in your gulp file: 
+and use and require in your gulp file:
 
 ```javascript
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build');
+var altcoreTasks = require('altcore-build');
 
-bitcoreTasks('submodule');
+altcoreTasks('submodule');
 gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 ```
 
@@ -25,17 +25,16 @@ gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 * There's no default task to allow for each submodule to set up their own configuration
 * If the module is node-only, avoid adding the browser tasks with:
 ```javascript
-var bitcoreTasks = require('bitcore-build');
-bitcoreTasks('submodule', {skipBrowsers: true});
+var altcoreTasks = require('altcore-build');
+altcoreTasks('submodule', {skipBrowsers: true});
 ```
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore) on the main bitcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/priestc/altcore) on the main altcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/priestc/altcore/blob/master/LICENSE).
 
 Copyright 2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-

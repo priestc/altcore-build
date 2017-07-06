@@ -1,45 +1,30 @@
 {
-  "name": "bitcore-build",
+  "name": "altcore-build",
   "version": "0.8.0",
-  "description": "A helper for common tasks to build bitcore modules'",
+  "description": "A helper for common tasks to build altcore modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/bitcore-build"
+    "url": "git://github.com/priestc/altcore-build"
   },
   "keywords": [
+    "altcore",
     "bitcore"
   ],
   "contributors": [
     {
-      "name": "Esteban Ordano",
-      "email": "esteban@bitpay.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "maraoz@bitpay.com"
-    },
-    {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
-    },
-    {
-      "name": "Yemel Jardi",
-      "email": "yemel@bitpay.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
+      "name": "Chris Priest",
+      "email": "cp368202@ohiou.edu"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-build/issues"
+    "url": "https://github.com/priestc/altcore-build/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore-build",
+  "homepage": "https://github.com/priestc/altcore-build",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
@@ -67,4 +52,3 @@
     "zuul": "^3.11.1"
   }
 }
-
